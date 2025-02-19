@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "TodoListApi",
+    "collectionId": "05ec58d2-d31d-43b7-b08f-4ffba085a443",
+    "dateExported": "2025-02-19T08:09:19.412Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3ce12a10-9776-415c-97f8-90197e19f137",
+            "colId": "05ec58d2-d31d-43b7-b08f-4ffba085a443",
+            "containerId": "",
+            "name": "api/TaskItems",
+            "url": "https://localhost:7045/api/TaskItems",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-19T02:32:10.612Z",
+            "modified": "2025-02-19T02:32:10.612Z",
+            "headers": []
+        },
+        {
+            "_id": "8a2f9aa8-b7fb-434d-8774-93db8389320e",
+            "colId": "05ec58d2-d31d-43b7-b08f-4ffba085a443",
+            "containerId": "",
+            "name": "api/TaskItems",
+            "url": "https://localhost:7045/api/TaskItems",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2025-02-19T04:17:28.559Z",
+            "modified": "2025-02-19T07:22:16.470Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Nueva tarea C\",\n  \"isCompleted\": false\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c46d8b8b-103f-4b82-b7a2-1b7c695cdbcc",
+            "colId": "05ec58d2-d31d-43b7-b08f-4ffba085a443",
+            "containerId": "",
+            "name": "api/TaskItems/{id}",
+            "url": "https://localhost:7045/api/TaskItems/2",
+            "method": "GET",
+            "sortNum": 36250,
+            "created": "2025-02-19T04:12:36.496Z",
+            "modified": "2025-02-19T04:27:08.661Z",
+            "headers": []
+        },
+        {
+            "_id": "fd4fa9f6-94b2-45e7-96a5-26f2d8eb775a",
+            "colId": "05ec58d2-d31d-43b7-b08f-4ffba085a443",
+            "containerId": "",
+            "name": "api/TaskItems/{id}",
+            "url": "https://localhost:7045/api/TaskItems/3",
+            "method": "PUT",
+            "sortNum": 37500,
+            "created": "2025-02-19T02:33:20.095Z",
+            "modified": "2025-02-19T07:00:04.527Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3,\n  \"title\": \"Tarea actualizada A\",\n  \"isCompleted\": true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "44bcac4e-2530-4541-8fa0-91745cf51dc3",
+            "colId": "05ec58d2-d31d-43b7-b08f-4ffba085a443",
+            "containerId": "",
+            "name": "api/TaskItems/{id}",
+            "url": "https://localhost:7045/api/TaskItems/5",
+            "method": "DELETE",
+            "sortNum": 47500,
+            "created": "2025-02-19T04:26:14.099Z",
+            "modified": "2025-02-19T07:22:37.741Z",
+            "headers": []
+        }
+    ],
+    "ref": "QK8hHd_H_D51yU_HBxMTe2-t4RyLlMvdoYvNrRJwwHbayLgAVUO4NJtTw5rHIuygEJa2Mcb5ZQD6Y0fpOD_qQw"
+}
